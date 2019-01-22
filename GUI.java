@@ -189,7 +189,7 @@ public class GUI extends game {
 
     public static boolean checkDraw(){
         for(int i = 0; i < 9; i++){
-            if(buttons[i].getText().equals("E")){
+            if(buttons[i].getText().equals("")){
                 return false;
             }
         }
